@@ -1,4 +1,4 @@
-import hands from "../../../../../images/cliente_missao.jpg"
+
 
 export default function SubSection3About2() {
 

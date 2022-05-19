@@ -1,10 +1,5 @@
 import { useEffect, useState } from "react";
 import GlobalContext from "./globalContext";
-import caneca from "../../images/fotos/Canecas e Squeezes/Caneca Capuccino_CC10017-ok.jpg"
-import botton from "../../images/fotos/Bottons e Pins/Bottons - Diversas Personalizacoes_BT7001-ok.jpg"
-import chaveiros from "../../images/fotos/Chaveiros/Chaveiro Couro Costurado_cc5003-ok.jpg"
-import cracha from "../../images/fotos/Cordoes para Crachas e Acessorios/Cracha Plastico_cp2003-ok.jpg"
-import adesivo from "../../images/fotos/Escritorio/Adesivo Escovado_AE30005-ok.jpg"
 import JS from "../../components/imgs/js.png"
 import HTML from "../../components/imgs/html.png"
 import CSS from "../../components/imgs/css.png"
@@ -220,6 +215,16 @@ export default function GlobalState(props) {
                 tecnologias: [[NODE, SQL, TS, FIRE], ["Express, cors, dotenv, knex, UUID, bcrypt, hash, json"]],
                 link: "https://documenter.getpostman.com/view/18385085/UVyvuuDy",
                 github: "https://github.com/ChristpherFeilstrecker/labenu-system9"
+            },
+            {
+                id: "014",
+                nome: "PORTFÓLIO ",
+                descricao: "- Meu portfólio pessoal, onde trago alguns projetos que desenvolvi ou que estou desenvolvendo.",
+                imagem: [system1, system2],
+                referencia: "BACKEND",
+                tecnologias: [[JS, HTML, CSS, JEST, REACT], ["Styled-components,axios"]],
+                link: "https://portfolio-christopherfs.surge.sh/",
+                github: "https://github.com/ChristpherFeilstrecker/PORTF-LIO"
             }
         ]
     }

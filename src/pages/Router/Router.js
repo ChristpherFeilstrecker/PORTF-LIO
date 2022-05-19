@@ -2,15 +2,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import "./StyledRouter.css";
 import TopBar from '../TopBar/TopBar'
-import Footer from '../Footer/Footer';
 import IntroPage from '../IntroPage/IntroPage'
 import ProductsPage from '../Products/ProductsPage';
 import AboutPage from '../AboutPage/AboutPage'
-import AssistancePage from '../AssistancePage/AssistancePage'
 import ContactPage from '../ContactPage/ContactPage'
-import CartPage from '../CartPage/CartPage'
 import ErrorPage from '../ErrorPage/ErrorPage'
-import DetailProductPage from '../DetailProductPage/DetailProductPage';
 import guost1 from "../../components/imgs/guost1.png"
 
 export const Router = () => {

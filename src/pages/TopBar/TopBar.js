@@ -1,11 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./StyledTopBar.css";
-import logo from "../../images/logo.png"
-import car from "../../images/shopping-cart.png"
-import carblue from "../../images/shopping-cart-blue.png"
-import lines from "../../images/linhas.png"
-import arrowLeft from "../../images/arrow-left.png"
+
 
 export default function TopBar() {
     let navigate = useNavigate();

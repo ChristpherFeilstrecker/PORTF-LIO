@@ -1,7 +1,7 @@
 import "./StyledContactSection2.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import arrow from "../../../../images/arrow.png";
+import arrow from "../../../../components/imgs/arrow.png";
 import useForm from "../../../../components/hooks/useForm";
 import moon from "../../../../components/imgs/casabruxa.jpg"
 import cat from "../../../../components/imgs/cat.gif"

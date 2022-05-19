@@ -4,7 +4,7 @@ import SubSection1About2 from "./SubSectionAbout2/SubSection1About2";
 import { useNavigate } from "react-router-dom";
 import SubSection2About2 from "./SubSectionAbout2/SubSection2About2";
 import SubSection3About2 from "./SubSectionAbout2/SubSection3About2";
-import arrow from "../../../../images/arrow.png"
+import arrow from "../../../../components/imgs/arrow.png"
 import house from "../../../../components/imgs/casabruxa.jpg"
 import whitcher1 from "../../../../components/imgs/bruxa1.gif"
 import whitcher2 from "../../../../components/imgs/bruxa2.png"

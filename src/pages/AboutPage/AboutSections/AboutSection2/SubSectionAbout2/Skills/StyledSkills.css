@@ -1,0 +1,45 @@
+
+.skill-image-front-skills {
+    border-radius: 2rem;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+    background-color: rgb(240, 248, 255,0.4);
+}
+
+#OtherSkills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem 3rem;
+    align-items: center;
+}
+
+.skills-container-other{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: white;
+    height: 100%;
+}
+
+.skills-box-other{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+

@@ -27,9 +27,9 @@ export default function ContactSection2() {
         <div id="contact-section-2">
             <img className="moon-image" src={moon} alt="moon" />
             <div className="vampire-container">
-            <div className="vampire-text">CLIQUE SOBRE O GATO PRETO!</div>
-            <div className="triangulo-para-direita"></div>
-            <img className="vampire" src={vampire} alt="vampire" />
+                <div className="vampire-text">CLIQUE SOBRE O GATO PRETO!</div>
+                <div className="triangulo-para-direita"></div>
+                <img className="vampire" src={vampire} alt="vampire" />
             </div>
             <div className="header-container-contact-section-2">
                 <div className="header-text-contact-section-2">
@@ -39,7 +39,7 @@ export default function ContactSection2() {
             <div className="body-container-contact-section-2">
                 {active ?
                     <div className="left-box-contact-section-2">
-<div className="left-box-content"></div>
+                        <div className="left-box-content"></div>
                     </div>
                     :
                     <div className="left-box-contact-section-2">
@@ -119,8 +119,8 @@ export default function ContactSection2() {
                             <div className="rigth-box-text-contact-section-2">christopher.feilstrecker@gmail.com</div>
                         </div>
                     </div>
-                    <div onClick={()=>setActive(!active)}>
-                      <img className="black-cat" src={cat} alt="black-cat" />  
+                    <div onClick={() => setActive(!active)}>
+                        <img className="black-cat" src={cat} alt="black-cat" />
                     </div>
                 </div>
 

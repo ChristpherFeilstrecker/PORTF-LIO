@@ -49,6 +49,9 @@ import pokeapi2 from "../../components/imgs/projetos/pokeapi2.jpg"
 import system1 from "../../components/imgs/projetos/system1.jpg"
 import system2 from "../../components/imgs/projetos/system2.jpg"
 
+import port1 from "../../components/imgs/projetos/port1.jpg"
+import port2 from "../../components/imgs/projetos/port2.jpg"
+
 export default function GlobalState(props) {
     const [cart, setCart] = useState([])
 
@@ -220,8 +223,8 @@ export default function GlobalState(props) {
                 id: "014",
                 nome: "PORTFÓLIO ",
                 descricao: "- Meu portfólio pessoal, onde trago alguns projetos que desenvolvi ou que estou desenvolvendo.",
-                imagem: [system1, system2],
-                referencia: "BACKEND",
+                imagem: [port1, port2],
+                referencia: "FRONTEND",
                 tecnologias: [[JS, HTML, CSS, JEST, REACT], ["Styled-components,axios"]],
                 link: "https://portfolio-christopherfs.surge.sh/",
                 github: "https://github.com/ChristpherFeilstrecker/PORTF-LIO"

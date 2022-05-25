@@ -24,14 +24,6 @@ export default function TopBar() {
     return (
         <header className="top-bar-container">
             <div className="top-bar">
-                <div className="container-logo">
-                    <div className="lines" onClick={() => setMenu(!menu)}>
-                        <span className={menu?'line1':'line1-active'}></span>
-                        <span className='line2'></span>
-                        <span className={menu?'line3':'line3-active'}></span>
-                    </div>
-                </div>
-                
                 <div id='nav-container' className="nav-container">
                     <div className={menu ? 'hide-nav-menu-container' : 'nav-menu-container'}>
                         <div className="nav-section ">

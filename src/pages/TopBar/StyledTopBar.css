@@ -47,19 +47,6 @@
     }
 }
 
-.lines {
-    display: none;
-    padding-left: 0px;
-    height: 70%;
-    width: 50px;
-}
-
-.arrow-left {
-    display: none;
-    padding-left: 0px;
-    height: 70%;
-    width: 50px;
-}
 
 .top-bar {
     height: 100%;
@@ -79,7 +66,7 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    font-size: medium;
+    font-size: 1.5vw;
     font-weight: 600;
 
 }
@@ -87,7 +74,7 @@
 .nav-buttons {
     display: flex;
     justify-content: space-around;
-    gap:2rem;
+    gap:2vw;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -104,7 +91,7 @@
     display: flex;
     align-items: center;
     transition: 1s all ease;
-    padding: 2rem 35px;
+    padding: 1.5rem 35px;
     z-index: 10;
     height: 1vw;
     border-width: thin;
@@ -138,29 +125,7 @@ background-color: rgb(252, 249, 249);
 color:blue;
 }
 
-.cart-container {
 
-    margin-left: 2vw;
-    display: flex;
-    align-items: center;
-}
-
-.cart-logo {
-    cursor: pointer;
-    height: 30%;
-}
-
-.cart-logo-blue {
-    cursor: pointer;
-    height: 30%;
-    margin-left: -27px;
-    opacity: 0;
-}
-
-.cart-logo-blue:hover {
-    transition: 0.8s all ease;
-    opacity: 100;
-}
 
 .nav-menu-container,
 .hide-nav-menu-container {
@@ -179,10 +144,6 @@ color:blue;
         height: 100%;
     }
 
-    .nav-section {
-        margin-left: 4vw;
-    }
-
     .nav-button {
         
         height: 1vw;
@@ -195,137 +156,20 @@ color:blue;
 }
 
 @media (max-width: 730px) {
-
-    .lines {
-        display: inherit;
-        flex-direction: column;
-        height: 60%;
-        margin-left: -2rem;
-        margin-right: 2rem;
-        justify-content: center;
-        gap: 0.5rem;
-    }
-
-    .line1 {
-        background-color: black;
-        width: 49px;
-        height: 5px;
-        transition: 1s all ease;
-    }
-
-    .line1-active {
-        background-color: black;
-        width: 25px;
-        height: 5px;
-        margin-bottom: -0.3rem;
-        transform: rotate(150deg);
-        transition: 1s all ease;
-    }
-
-    .line2 {
-        background-color: black;
-        width: 49px;
-        height: 5px;
-    }
-
-    .line3 {
-        background-color: black;
-        width: 49px;
-        height: 5px;
-        transition: 1s all ease;
-    }
-
-    .line3-active {
-        background-color: black;
-        width: 25px;
-        height: 5px;
-        margin-top: -0.3rem;
-        transform: rotate(-150deg);
-        transition: 1s all ease;
-    }
-
-    .active {}
-
-    .arrow-left {
-        display: inherit;
-        height: 60%;
-        width: 50px;
-        margin-left: 0rem;
-        margin-right: 2rem;
-        background-color: white;
-    }
-
-
-
-    .nav-menu-container {
-        background-color: white;
-        margin-top: 13vh;
-        margin-left: -45vh;
-        width: 320px;
-        height: 90vh;
-        display: flex;
-        transition: 1s all ease;
-    }
-
-    .hide-nav-menu-container {
-        visibility: visible;
-        background-color: white;
-        margin-top: 13vh;
-        margin-left: -95vh;
-        width: 320px;
-        height: 90vh;
-        display: flex;
-        transition: 1s all ease;
-    }
-
-
-
-    .nav-buttons {
-        cursor: pointer;
-        display: flex;
-        align-items: flex-start;
-        height: 100%;
-        list-style-type: none;
-        margin-top: 22vh;
-        flex-direction: column;
-        width: 320px;
-        padding-top: 15px;
-    }
-
-    .nav-button {
-        width: 100%;
-        padding: 1rem 3rem;
-    }
-
-    .cart-container {
-        margin-left: -277px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 120px;
-        width: 240px;
-        border-bottom-width: medium;
-        border-bottom-style: solid;
-        border-bottom-color: var(--box-shadow);
-    }
-
-    .cart-logo,
-    .cart-logo-blue {
-        width: 2rem;
-        height: 2rem;
-    }
-
-    .cart-logo-blue {
-        margin-left: -31px;
-    }
-
-    .nav-section {
-        margin-left: 0vw;
-    }
-
-    .show-menu {
-        margin-left: 20rem;
-        transition: 1s all ease;
-    }
-
+ .nav-button {
+    font-size: 2vw;
+    border-radius: 3rem;
+    color: rgb(252, 249, 249);
+    display: flex;
+    align-items: center;
+    transition: 1s all ease;
+    padding: 5vw 6vw;
+    z-index: 10;
+    height: 1vw;
+    border-width: thin;
+    border-style: solid;
+    border-color: white;
+    animation: lightBTN 10s;
+}   
 }
+

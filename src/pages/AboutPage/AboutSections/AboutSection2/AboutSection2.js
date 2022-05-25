@@ -30,9 +30,7 @@ export default function AboutSection2() {
                 </div>
 
                 <div className="rigth-container-about-section-2">
-                    <div className="title-rigth-container-about-section-2">
-                        <div data-aos="fade-left" className="title-rigth-about-section-2"></div>
-                    </div>
+                    
                     <ul data-aos="fade" className="nav-container-rigth-about-section-2">
                         <li onClick={() => navigate(``)} className="nav-button-container-about-section-2 efeito1" href="">
                             <div className="nav-button-about-section-2">SOBRE MIM</div>

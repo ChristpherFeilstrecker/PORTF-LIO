@@ -450,7 +450,7 @@
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 730px) {
 
 
     .form-personal-data-container-contact-section-2 {
@@ -463,6 +463,20 @@
         padding: 2vw;
     }
 
+    .rigth-box-contact-section-2 {
+        width: 100%;
+        display: flex;
+        
+        background-color: rgb(64, 65, 65, 0.5);
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+    }
+
 }
 
-@media (max-width: 550px) {}
+@media (max-width: 550px) {
+
+    
+}
